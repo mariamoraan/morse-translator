@@ -71,12 +71,26 @@
 .footer-title strong {
   color: var(--primary-color);
 }
-.footer .dev-by {
-}
 
 .footer .dev-by a {
   color: inherit;
   text-decoration: none;
   font-weight: 600;
   border-bottom: 1px solid var(--on-primary-color-light);
+}
+
+@media (max-width: 600px) {
+  .title,
+  .subtitle {
+    padding: 0 12px;
+  }
+  .translator {
+    padding: 12px;
+  }
+  .indicator {
+    padding: 0 12px;
+  }
+  .footer {
+    padding: 12px;
+  }
 }
