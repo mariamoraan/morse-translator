@@ -1,0 +1,28 @@
+.examples {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  transition: 500ms ease;
+  overflow-x: visible;
+}
+
+.examples .example {
+  min-width: 250px;
+  width: 250px;
+  max-width: 250px;
+}
+
+.buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}

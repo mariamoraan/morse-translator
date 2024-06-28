@@ -1,0 +1,25 @@
+.wrapper {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 12px;
+  background: #d6e0e8;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}

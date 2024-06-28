@@ -1,0 +1,30 @@
+.wrapper {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 12px;
+  background: #d6e0e8;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.value {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 48px;
+  word-spacing: 24px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.copy {
+  position: relative;
+}

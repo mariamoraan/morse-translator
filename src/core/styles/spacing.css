@@ -1,5 +1,5 @@
 :root {
-  --space-unit: 1rem; /* 16px */
+  --space-unit: 16px; /* 16px */
   --xxs: calc(0.25 * var(--space-unit)); /* 4px */
   --xs: calc(0.5 * var(--space-unit)); /* 8px */
   --sm: calc(0.75 * var(--space-unit)); /* 12px */
