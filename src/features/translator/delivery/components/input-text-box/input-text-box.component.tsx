@@ -1,6 +1,6 @@
 import { bind } from '@/core/styles/bind';
 import styles from './input-text-box.module.css';
-import { EraserIcon } from '@/core/icons';
+import { CloseIcon } from '@/core/icons';
 import { Button } from '@/core/components/button/button.component';
 const cx = bind(styles);
 
@@ -30,8 +30,8 @@ export const InputTextBox = (props: Props) => {
         placeholder={placeholder}
       />
       <div className={cx('bottom')}>
-        <Button variant="icon" onClick={onDelete}>
-          <EraserIcon />
+        <Button variant="icon" onClick={onDelete} disabled={value === ''}>
+          <CloseIcon />
         </Button>
       </div>
     </div>

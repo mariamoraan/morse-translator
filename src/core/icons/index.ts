@@ -7,6 +7,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 import { HiDotsHorizontal } from 'react-icons/hi';
 import { ImPause } from 'react-icons/im';
 import { FaArrowLeft } from 'react-icons/fa6';
+import { IoCloseSharp } from 'react-icons/io5';
 
 export {
   GoCopy as CopyIcon,
@@ -18,4 +19,5 @@ export {
   HiDotsHorizontal as HorizontalDotsIcon,
   ImPause as PauseIcon,
   FaArrowLeft as ArrowLeftIcon,
+  IoCloseSharp as CloseIcon,
 };
