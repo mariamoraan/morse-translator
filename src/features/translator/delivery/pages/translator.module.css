@@ -19,6 +19,7 @@
 }
 
 .subtitle {
+  padding: 0 24px;
   margin-bottom: 24px;
   color: var(--dark-grey);
   font-size: 18px;
